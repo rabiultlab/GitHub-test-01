@@ -13,3 +13,14 @@ nav li a{
 nav li:hover{
     background-color: rgb(158, 158, 247);
 }
+/* nested menu styles */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: beige;
+    padding: 10px;
+    
+}
+nav li:hover > .dropdown{
+    display: block;
+}
